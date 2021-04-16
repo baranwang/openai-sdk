@@ -15,7 +15,9 @@ interface baseQueryType {
 }
 
 interface CHATQueryData {
-    username: string;
+    username?: string;
+    avatar?: string
+    userid: string
     msg: string;
 }
 

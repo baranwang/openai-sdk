@@ -34,7 +34,7 @@ async function transferNLP<T extends keyof ApiTypes>(nlpType: T, query: QueryDat
             json: {
                 query: token
             }
-        }, (error: any, stderr: any, stdout: ResponseData) => {
+        }, (error: any, _: any, stdout: ResponseData) => {
             if (error) {
                 reject(error)
                 return
