@@ -29,7 +29,7 @@ export interface ResponseCHAT {
   list_options: false;
   msg?: [
     {
-      ans_node_id: 6666 | 8842394 | 8846184;
+      ans_node_id: number;
       ans_node_name: string;
       article: string;
       confidence: 1;
