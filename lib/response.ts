@@ -63,8 +63,8 @@ export interface ResponseCHAT {
   ret: number;
   scene_status: string;
   session_id: string;
-  slot_info: [];
-  slots_info: [];
+  slot_info: any[];
+  slots_info: any[];
   status: string;
   take_options_only: boolean;
   title: string;
